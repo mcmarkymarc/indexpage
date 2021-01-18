@@ -1,0 +1,78 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+  background-color: #d3d3d3;
+  color: black;
+}
+.title-img{
+  width: 250px;
+}
+
+/* Side Nav */
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  margin-top: 20px;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.bottommenu {
+  position: fixed;
+  bottom: 0px;
+  width: 98%;
+}
+
+.bottommenu a {
+  color: #818181;
+}
+
+nav button{
+  margin: 15px;
+}
+
+.button2{
+  margin-top: 20px;
+  padding: 6px 8px 6px 16px;
+}
+
+
+#footer{
+  position: fixed;
+  text-align: center;
+  bottom: 0px;
+  width: 100%;
+}
+
+/* .dropdisplay: none;
+    left: 100%;
+    position: absolute;
+    bottom: 0%;
+    overflow: scroll; */
